@@ -1,0 +1,81 @@
+body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+.main-div{
+    min-height: 80vh;
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: black;
+}
+.float-centre{
+    text-align: center;
+}
+.float-right{
+    text-align: right;
+}
+.banner-image{
+    min-height: 100vh;
+    color: black;
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 35vh 0px 35vh 0px;
+    
+}
+.panel{
+    border: none;
+    border-radius: 10px;
+}
+.panel-heading{
+    color: white !important;
+    background-color: black !important;
+    padding: 15px 15px 30px 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+.panel-body{
+    padding: 20px 15px 20px 15px;
+}
+.form-control{
+    margin: 5px 0px 5px 0px;
+}
+.panel-footer{
+    color: black !important;
+    background-color: white !important;
+    padding: 15px 30px 15px 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+.no-padding{
+    padding: 0px 0px 0px 0px;
+}
+.btn-default{
+    padding: 5px 30px 5px 30px;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    background-color: transparent;
+}
+.btn-default:hover{
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+.btn-round{
+    margin: 0px 25px 25px 0px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+}
+.btn-round:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    margin-top: 70px;
+}
