@@ -2,7 +2,7 @@
     require "../includes/common.php";
     $username = mysqli_real_escape_string($conn, $_POST["username"]);
     $email_id = mysqli_real_escape_string($conn, $_POST["email"]);
-    $password = md5(mysqli_real_escape_string($conn, $_POST["password"]));
+    $password = mysqli_real_escape_string($conn, $_POST["password"]);
     $query1 = "SELECT user_id FROM users WHERE email = '$email_id' OR username = '$username'";
     $query2 = "INSERT INTO users (username, email, password) VALUES ('$username', '$email_id', '$password')";
 

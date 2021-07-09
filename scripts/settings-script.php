@@ -6,8 +6,8 @@
         $user_id = $_SESSION["user_id"];
         $email_id = $_SESSION["email_id"];
 
-        $new_pass = md5(mysqli_real_escape_string($conn, $_POST["new_pass"]));
-        $retype_new_pass = md5(mysqli_real_escape_string($conn, $_POST["retype_new_pass"]));
+        $new_pass = mysqli_real_escape_string($conn, $_POST["new_pass"]);
+        $retype_new_pass = mysqli_real_escape_string($conn, $_POST["retype_new_pass"]);
 
         if($new_pass != $retype_new_pass){
             echo "The passwords do not match. Try again.";

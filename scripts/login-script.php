@@ -1,7 +1,7 @@
 <?php
     require "../includes/common.php";
     $email_id = mysqli_real_escape_string($conn, $_POST["email"]);
-    $password = md5(mysqli_real_escape_string($conn, $_POST["password"]));
+    $password = mysqli_real_escape_string($conn, $_POST["password"]);
 
     $query = "SELECT * FROM users WHERE email = '$email_id' AND password = '$password'";
     $result = mysqli_query($conn, $query);
